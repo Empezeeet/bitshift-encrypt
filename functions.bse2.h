@@ -9,8 +9,6 @@
 #include <iomanip>
 #include <vector>
 
-#endif //BITSHIFTENCRYPT2_FUNCTIONS_BSE2_H
-
 unsigned int convertToRange(unsigned int max, unsigned int num) {
     if (num < max) return num;
     return num%max;
@@ -74,3 +72,9 @@ bool isBinary(const std::string* input)
     }
     return true;
 }
+
+
+
+
+#endif //BITSHIFTENCRYPT2_FUNCTIONS_BSE2_H
+
